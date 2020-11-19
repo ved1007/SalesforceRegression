@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
         strict = true,
         dryRun = false
 //      tags = {"~@SmokeTest" , "~@RegressionTest", "~@End2End"}
-        //	plugin= {"pretty", "html:test-output"}
+       
 )
 
 public class OpportunitiesRunner {
