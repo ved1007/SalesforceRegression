@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "//Users/vedant.jagani/git/Salesforce/CucumberBDDFrame/src/main/java/Features/Opportunities.feature",
 
         glue = {"stepDefinitions"},
-        format = {"pretty", "html:test-outout", "json:json_output/cucumber.json",
+        plugin = {"pretty", "html:test-outout", "json:json_output/cucumber.json",
                 "junit:junit_xml/cucumber.xml"},
         monochrome = true,
         strict = true,
