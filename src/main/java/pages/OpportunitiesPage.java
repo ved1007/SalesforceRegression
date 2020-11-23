@@ -56,7 +56,7 @@ public class OpportunitiesPage extends BasePageTest {
 	By WriteUpAmountInputField = By.cssSelector("*[id^='1186:'][id$='a']");
 	By CountryField = By.cssSelector("*[id^='1241:'][id$='a']");
 	By eLeadCreateDateClick = By.cssSelector("*[id^='1179:'][id$='a']");
-	
+
 	By DealershipSearchBoxClick = By.cssSelector("*[id^='1284:'][id$='a']");
 	By DealershipSearchFieldPopulate = By.xpath("//div[@title='CNC CONCORD NC RVSALES']");
 
@@ -94,22 +94,22 @@ public class OpportunitiesPage extends BasePageTest {
 	By YearToPopulate = By.xpath("//a[@title='2017']");
 	By PriceToClick = By.cssSelector("*[aria-describedby^='2330:'][aria-describedby$='a-label']");
 	By PriceToPopulate = By.xpath("//a[contains(text(),'4,000')]");
-	
+
 	By PaymentFromClick = By.cssSelector("*[aria-describedby^='2456:'][aria-describedby$='a-label']");
 	By PaymentFromPopulate = By.xpath("//a[@title='75']");
-	
+
 	By PaymentToClick = By.cssSelector("*[aria-describedby^='2582:'][aria-describedby$='a-label']");
 	By PaymentToPopulate = By.xpath("//a[@title='100']");
-	
+
 	By LengthFromClick = By.cssSelector("*[aria-describedby^='2708:'][aria-describedby$='a-label']");
 	By LengthFromPopulate = By.xpath("//a[@title='6 ft']");
-	
+
 	By LengthToClick = By.cssSelector("*[aria-describedby^='2804:'][aria-describedby$='a-label']");
 	By LengthToPopulate = By.xpath("//a[@title='10 ft']");
-	
+
 	By FloorplanStyleClick = By.cssSelector("*[aria-describedby^='2758:'][aria-describedby$='a-label']");
 	By FloorplanStylePopulate = By.xpath("//a[@title='Park Model']");
-	
+
 	By GeniusNotes1RVAttributes = By.cssSelector("*[id^='2854:'][id$='a']");
 	By NumberSlideOutsInputField = By.cssSelector("*[id^='2880:'][id$='a']");
 	By Notes2MeetAndGreetInput = By.cssSelector("*[id^='2902:'][id$='a']");
@@ -122,28 +122,28 @@ public class OpportunitiesPage extends BasePageTest {
 
 	By InterestedTypeInputField = By.cssSelector("*[id^='3037:'][id$='a']");
 	By InteriorColorInputField = By.cssSelector("*[id^='3053:'][id$='a']");
-	By InterestedCategoryInputField = By.cssSelector("*[id^='3073:'][id$='a']");	
-	By ExteriorColorInputField = By.cssSelector("*[id^='3089:'][id$='a']");	
+	By InterestedCategoryInputField = By.cssSelector("*[id^='3073:'][id$='a']");
+	By ExteriorColorInputField = By.cssSelector("*[id^='3089:'][id$='a']");
 	By InterestedYearInputField = By.cssSelector("*[id^='3109:'][id$='a']");
 	By NumberDoorsInputField = By.cssSelector("*[id^='3125:'][id$='a']");
 	By InterestedMakeInputField = By.cssSelector("*[id^='3147:'][id$='a']");
-	By MileageInputField = By.cssSelector("*[id^='3163:'][id$='a']");	
-	By InterestedModelInputField = By.cssSelector("*[id^='3185:'][id$='a']");	
+	By MileageInputField = By.cssSelector("*[id^='3163:'][id$='a']");
+	By InterestedModelInputField = By.cssSelector("*[id^='3185:'][id$='a']");
 	By VehicleOptionsInputField = By.cssSelector("*[id^='3201:'][id$='a']");
 	By InterestedProductInput = By.cssSelector("*[id^='3221:'][id$='a']");
 	By InterestLevelDropdownClick = By.cssSelector("*[aria-describedby^='3237:'][aria-describedby$='a-label']");
-	By InterestLevelDropdownPopulate = By.xpath("//a[@title='Highly Interested']");	
+	By InterestLevelDropdownPopulate = By.xpath("//a[@title='Highly Interested']");
 	By VehicleTrimInputField = By.cssSelector("*[id^='3287:'][id$='a']");
-	By BuyingHorizonInputField = By.cssSelector("*[id^='3303:'][id$='a']");	
+	By BuyingHorizonInputField = By.cssSelector("*[id^='3303:'][id$='a']");
 	By VehicleEngineInputField = By.cssSelector("*[id^='3323:'][id$='a']");
 	By PaymentMethodDropdownClick = By.cssSelector("*[aria-describedby^='3339:'][aria-describedby$='a-label']");
-	By PaymentMethodDropdownPopulate = By.xpath("//a[@title='Finance']");	
+	By PaymentMethodDropdownPopulate = By.xpath("//a[@title='Finance']");
 	By ChassisDropdownClick = By.cssSelector("*[aria-describedby^='3389:'][aria-describedby$='a-label']");
 	By ChassisDropdownPopulate = By.xpath("//a[@title='Chevrolet Express 3500']");
 	By PaymentDetailsInput = By.cssSelector("*[id^='3435:'][id$='a']");
 	By TransmissionField = By.cssSelector("*[id^='3455:'][id$='a']");
-	By VehiclePricingField = By.cssSelector("*[id^='3471:'][id$='a']");		
-	By InterestedStockField = By.cssSelector("*[id^='3491:'][id$='a']");	
+	By VehiclePricingField = By.cssSelector("*[id^='3471:'][id$='a']");
+	By InterestedStockField = By.cssSelector("*[id^='3491:'][id$='a']");
 	By VehicleCommentsField = By.cssSelector("*[id^='3507:'][id$='a']");
 	By InterestedIdField = By.cssSelector("*[id^='3527:'][id$='a']");
 	By WebpageField = By.cssSelector("*[id^='3543:'][id$='a']");
@@ -156,8 +156,8 @@ public class OpportunitiesPage extends BasePageTest {
 	By PreviousStageDropdownClick = By.cssSelector("*[aria-describedby^='3912:'][aria-describedby$='a-label']");
 	By PreviousStageDropdownPopulate = By.xpath("//a[@title='In-Process']");
 	By TowVehicleYearField = By.cssSelector("*[id^='3973:'][id$='a']");
-	By MaxTowingCapacityField = By.cssSelector("*[id^='3991:'][id$='a']");	
-	By TowVehicleMakeField = By.cssSelector("*[id^='4013:'][id$='a']");	
+	By MaxTowingCapacityField = By.cssSelector("*[id^='3991:'][id$='a']");
+	By TowVehicleMakeField = By.cssSelector("*[id^='4013:'][id$='a']");
 	By TowVehicleModelField = By.cssSelector("*[id^='4047:'][id$='a']");
 	By TowVehicleVINField = By.cssSelector("*[id^='4063:'][id$='a']");
 	By TowVehicleTrimField = By.cssSelector("*[id^='4083:'][id$='a']");
@@ -167,62 +167,62 @@ public class OpportunitiesPage extends BasePageTest {
 	By CurrentOwnedYearField = By.cssSelector("*[id^='4200:'][id$='a']");
 	By CurrentOwnedPayoffField = By.cssSelector("*[id^='4216:'][id$='a']");
 	By CurrentOwnedMakeField = By.cssSelector("*[id^='4238:'][id$='a']");
-	By CurrentOwnedQuoteLowField = By.cssSelector("*[id^='4254:'][id$='a']");	
-	By CurrentOwnedProductField = By.cssSelector("*[id^='4276:'][id$='a']");	
-	By CurrentOwnedModelField = By.cssSelector("*[id^='4314:'][id$='a']");	
-	By CurrentOwnedQuoteHighField = By.cssSelector("*[id^='4292:'][id$='a']");	
-	By CurrentOwnedTrimField = By.cssSelector("*[id^='4350:'][id$='a']");	
-	By CurrentOwnedQuoteDetailsField = By.cssSelector("*[id^='4330:'][id$='a']");	
-	By CurrentOwnedCommentsField = By.cssSelector("*[id^='4366:'][id$='a']");	
+	By CurrentOwnedQuoteLowField = By.cssSelector("*[id^='4254:'][id$='a']");
+	By CurrentOwnedProductField = By.cssSelector("*[id^='4276:'][id$='a']");
+	By CurrentOwnedModelField = By.cssSelector("*[id^='4314:'][id$='a']");
+	By CurrentOwnedQuoteHighField = By.cssSelector("*[id^='4292:'][id$='a']");
+	By CurrentOwnedTrimField = By.cssSelector("*[id^='4350:'][id$='a']");
+	By CurrentOwnedQuoteDetailsField = By.cssSelector("*[id^='4330:'][id$='a']");
+	By CurrentOwnedCommentsField = By.cssSelector("*[id^='4366:'][id$='a']");
 	By CurrentOwnedLengthField = By.cssSelector("*[id^='4386:'][id$='a']");
 	By CurrentOwnedConditionField = By.cssSelector("*[id^='4402:'][id$='a']");
-	By CurrentOwnedEngineField = By.cssSelector("*[id^='4422:'][id$='a']");	
-	By CurrentOwnedIDField = By.cssSelector("*[id^='4438:'][id$='a']");	
+	By CurrentOwnedEngineField = By.cssSelector("*[id^='4422:'][id$='a']");
+	By CurrentOwnedIDField = By.cssSelector("*[id^='4438:'][id$='a']");
 	By CurrentOwnedOptionsField = By.cssSelector("*[id^='4458:'][id$='a']");
-	
+
 	// Info from Lead (To Change Contact Info, Scroll Down to Contact Roles)
-	By LeadPhoneField = By.cssSelector("*[id^='4503:'][id$='a']");	
-	By LeadEmailField = By.cssSelector("*[id^='4519:'][id$='a']");	
-	By LeadMobilePhoneField = By.cssSelector("*[id^='4539:'][id$='a']");	
-	By LeadScoreField = By.cssSelector("*[id^='4555:'][id$='a']");	
-	By LeadOtherPhoneField = By.cssSelector("*[id^='4577:'][id$='a']");	
-	By LeadWorkPhoneField = By.cssSelector("*[id^='4633:'][id$='a']");	
-	By LeadMessageField = By.cssSelector("*[aria-labelledby^='label-4673:'][aria-labelledby$='a']");	
+	By LeadPhoneField = By.cssSelector("*[id^='4503:'][id$='a']");
+	By LeadEmailField = By.cssSelector("*[id^='4519:'][id$='a']");
+	By LeadMobilePhoneField = By.cssSelector("*[id^='4539:'][id$='a']");
+	By LeadScoreField = By.cssSelector("*[id^='4555:'][id$='a']");
+	By LeadOtherPhoneField = By.cssSelector("*[id^='4577:'][id$='a']");
+	By LeadWorkPhoneField = By.cssSelector("*[id^='4633:'][id$='a']");
+	By LeadMessageField = By.cssSelector("*[aria-labelledby^='label-4673:'][aria-labelledby$='a']");
 	By EndVisitNotesField = By.cssSelector("*[data-aura-rendered-by^='4743:'][data-aura-rendered-by$='a']");
-	By SourceField = By.cssSelector("*[id^='4780:'][id$='a']");	
+	By SourceField = By.cssSelector("*[id^='4780:'][id$='a']");
 	By LeadSourceDropDownClick = By.cssSelector("*[aria-describedby^='4876:'][aria-describedby$='a-label']");
-	By LeadSourceDropDownPopulate = By.xpath("//a[@title='Internet']");	
-	By FormNameField = By.cssSelector("*[id^='4922:'][id$='a']");	
-	By WebLeadSoureDetailDropDownClick = By.cssSelector("*[aria-describedby^='4942:'][aria-describedby$='a-label']");	
+	By LeadSourceDropDownPopulate = By.xpath("//a[@title='Internet']");
+	By FormNameField = By.cssSelector("*[id^='4922:'][id$='a']");
+	By WebLeadSoureDetailDropDownClick = By.cssSelector("*[aria-describedby^='4942:'][aria-describedby$='a-label']");
 	By WebLeadSoureDetailDropDownPopulate = By.xpath("//a[@title='Dealer Website']");
-	By TrackingMediumField = By.cssSelector("*[id^='4910:'][id$='a']");
-	By TrackingSCPCField = By.cssSelector("*[id^='5006:'][id$='a']");
-	By WebLeadSourceNameField = By.cssSelector("*[id^='5026:'][id$='a']");
-	By DiscriptionField = By.cssSelector("*[id^='5477:'][id$='a']");
+	By TrackingMediumField = By.cssSelector("*[id^='4988:'][id$='a']");
+	By TrackingSCPCField = By.cssSelector("*[id^='5084:'][id$='a']");
+	By WebLeadSourceNameField = By.cssSelector("*[id^='5104:'][id$='a']");
+	By DiscriptionField = By.cssSelector("*[id^='5555:'][id$='a']");
 //    By PriceDropDownClick = By.cssSelector("*[aria-describedby^='5488:'][aria-describedby$='a-label']");
 //    By PriceDropDownPopulate = By.xpath("//a[@title='$15,000 to $30,000']");
-	By PrimaryEmailField = By.cssSelector("*[id^='5822:'][id$='a']");
-	By PrimaryPhoneField = By.cssSelector("*[id^='5856:'][id$='a']");
-	By LeadIPAddressField = By.cssSelector("*[id^='5904:'][id$='a']");
-	By LeadSystemDataField = By.cssSelector("*[id^='5938:'][id$='a']");
-	By CategoryDropDownClick = By.cssSelector("*[aria-describedby^='6008:'][aria-describedby$='a-label']");
+	By PrimaryEmailField = By.cssSelector("*[id^='5900:'][id$='a']");
+	By PrimaryPhoneField = By.cssSelector("*[id^='5934:'][id$='a']");
+	By LeadIPAddressField = By.cssSelector("*[id^='5982:'][id$='a']");
+	By LeadSystemDataField = By.cssSelector("*[id^='6016:'][id$='a']");
+	By CategoryDropDownClick = By.cssSelector("*[aria-describedby^='6086:'][aria-describedby$='a-label']");
 	By CategoryDropDownPopulate = By.xpath("//a[@title='Camping Trailer']");
-	By TrackingIDField = By.cssSelector("*[id^='6097:'][id$='a']");
-	By TrackingLandingPageURLField = By.cssSelector("*[id^='6133:'][id$='a']");
-	By TrackingReferralURLField = By.cssSelector("*[id^='6170:'][id$='a']");
-	By TrackingPromoCodeField = By.cssSelector("*[id^='6207:'][id$='a']");
-	By NextStepField = By.cssSelector("*[id^='6223:'][id$='a']");
-	By TrackingCampaignField = By.cssSelector("*[id^='6243:'][id$='a']");
-	By TrackingSourceField = By.cssSelector("*[id^='6277:'][id$='a']");
-	By TrackingContentField = By.cssSelector("*[id^='6311:'][id$='a']");
-	By TrackingKeywordsField = By.cssSelector("*[id^='6407:'][id$='a']");
-	By BackendGPField = By.cssSelector("*[id^='6455:'][id$='a']");
-	By ADCampaignField = By.cssSelector("*[id^='6477:'][id$='a']");
-	By ADGroupField = By.cssSelector("*[id^='6511:'][id$='a']");
-	By ADKeywordField = By.cssSelector("*[id^='6545:'][id$='a']");
-	By ADSlotField = By.cssSelector("*[id^='6579:'][id$='a']");
-	By ADSlotPositionField = By.cssSelector("*[id^='6613:'][id$='a']");
-	By ADContentField = By.cssSelector("*[id^='6647:'][id$='a']");
+	By TrackingIDField = By.cssSelector("*[id^='6175:'][id$='a']");
+	By TrackingLandingPageURLField = By.cssSelector("*[id^='6211:'][id$='a']");
+	By TrackingReferralURLField = By.cssSelector("*[id^='6248:'][id$='a']");
+	By TrackingPromoCodeField = By.cssSelector("*[id^='6285:'][id$='a']");
+	By NextStepField = By.cssSelector("*[id^='6301:'][id$='a']");
+	By TrackingCampaignField = By.cssSelector("*[id^='6321:'][id$='a']");
+	By TrackingSourceField = By.cssSelector("*[id^='6355:'][id$='a']");
+	By TrackingContentField = By.cssSelector("*[id^='6389:'][id$='a']");
+	By TrackingKeywordsField = By.cssSelector("*[id^='6485:'][id$='a']");
+	By BackendGPField = By.cssSelector("*[id^='6533:'][id$='a']");
+	By ADCampaignField = By.cssSelector("*[id^='6555:'][id$='a']");
+	By ADGroupField = By.cssSelector("*[id^='6589:'][id$='a']");
+	By ADKeywordField = By.cssSelector("*[id^='6623:'][id$='a']");
+	By ADSlotField = By.cssSelector("*[id^='6657:'][id$='a']");
+	By ADSlotPositionField = By.cssSelector("*[id^='6691:'][id$='a']");
+	By ADContentField = By.cssSelector("*[id^='6725:'][id$='a']");
 	By ClicktheSavebutton = By.cssSelector("*[data-aura-rendered-by^='9159:'][data-aura-rendered-by$='a']");
 
 	public void userNamefield(String username) {
@@ -887,6 +887,7 @@ public class OpportunitiesPage extends BasePageTest {
 		$(InterestLevelDropdownClick).click();
 
 	}
+
 	// Interest Level Populate
 	public void iNterestLevelDropdownPopulate() {
 		$(InterestLevelDropdownPopulate).click();
@@ -978,7 +979,7 @@ public class OpportunitiesPage extends BasePageTest {
 	}
 
 	public void toyDeskDropdownPopulate() {
-	//	$(ToyDeskDropdownPopulate).click();
+		// $(ToyDeskDropdownPopulate).click();
 		driver.findElements(By.xpath("//a[@title='Yes']")).get(0).click();
 	}
 
@@ -989,7 +990,7 @@ public class OpportunitiesPage extends BasePageTest {
 
 	// Outdoor Kitchen dropdown field populate
 	public void outdoorKitchenDropdownPopulate() {
-		//$(OutDoorKitchenDropdownPopulate).click();
+		// $(OutDoorKitchenDropdownPopulate).click();
 		driver.findElements(By.xpath("//a[@title='Yes']")).get(1).click();
 	}
 
@@ -1000,7 +1001,7 @@ public class OpportunitiesPage extends BasePageTest {
 
 	// Outdoor Entertainment dropdown field populate
 	public void outdoorEntertainmentDropdownPopulate() {
-		//$(OutdoorEntertainmentDropdownPopulate).click();
+		// $(OutdoorEntertainmentDropdownPopulate).click();
 		driver.findElements(By.xpath("//a[@title='No']")).get(2).click();
 	}
 
@@ -1008,8 +1009,9 @@ public class OpportunitiesPage extends BasePageTest {
 	public void previousStageDropdownClick() {
 		$(PreviousStageDropdownClick).click();
 	}
+
 	public void previousStageDropdownPopulate() {
-		//$(PreviousStageDropdownPopulate).click();
+		// $(PreviousStageDropdownPopulate).click();
 		driver.findElements(By.xpath("//a[@title='In-Process']")).get(1).click();
 	}
 
@@ -1365,7 +1367,7 @@ public class OpportunitiesPage extends BasePageTest {
 
 	// LastActivityDate
 	public void lastActivityDateCalender() {
-		driver.findElement(By.cssSelector("*[id^='6852:'][id$='a']")).click();
+		driver.findElement(By.cssSelector("*[id^='6930:'][id$='a']")).click();
 		List<WebElement> LastActivityDate = driver.findElements(By.xpath("//table[@class='calGrid']//td"));
 		int total_node12 = LastActivityDate.size();
 		for (int i = 0; i < total_node12; i++) {
@@ -1379,7 +1381,7 @@ public class OpportunitiesPage extends BasePageTest {
 
 	// Next Activity Date
 	public void nextActivityDateCalender() {
-		driver.findElement(By.cssSelector("*[id^='6915:'][id$='a']")).click();
+		driver.findElement(By.cssSelector("*[id^='6993:'][id$='a']")).click();
 		List<WebElement> NextActivityDate = driver.findElements(By.xpath("//table[@class='calGrid']//td"));
 		int total_node13 = NextActivityDate.size();
 		for (int i = 0; i < total_node13; i++) {
@@ -1407,7 +1409,7 @@ public class OpportunitiesPage extends BasePageTest {
 
 	// Last Sales Activity Date Time
 	public void LastSalesActivityDateTimeCalender() {
-		driver.findElement(By.cssSelector("*[id^='6875:'][id$='a']")).click();
+		driver.findElement(By.cssSelector("*[id^='6953:'][id$='a']")).click();
 		List<WebElement> LastSalesActivityDate = driver.findElements(By.xpath("//table[@class='calGrid']//td"));
 		int total_node15 = LastSalesActivityDate.size();
 		for (int i = 0; i < total_node15; i++) {
@@ -1448,9 +1450,9 @@ public class OpportunitiesPage extends BasePageTest {
 
 	}
 
-	// public void clicktheSavebutton() {
-	// $(ClicktheSavebutton).click();
+	public void clicktheSavebutton() {
+		$(ClicktheSavebutton).click();
 
-	// }
+	}
 
 }

@@ -751,9 +751,7 @@ public class OpportunitiesStepDef {
 
 	@Then("^Click the Save button$")
 	public void click_the_Save_button() {
+        op.clicktheSavebutton();
 
-		// Click on the Save button
-//        op.clicktheSavebutton();
-//
 	}
 }
