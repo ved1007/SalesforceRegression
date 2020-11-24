@@ -197,11 +197,9 @@ public class OpportunitiesStepDef {
 
 		// Worksheet ID field
 		op.workSheetIDInputField(WorksheetID);
-
 		// Date and Time
 		op.dateAndTimeCalender1();
 		op.dateAndTimeCalender2();
-
 		// Promo Message
 		op.promoMessageInputField(PromoMessage);
 
